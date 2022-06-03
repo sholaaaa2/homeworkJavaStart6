@@ -1,0 +1,1 @@
+package com.gmail.kukaruka52;public class Main {	public static void main(String[] args) {		System.out.println(concatThis(4, 13.3, "Hello"));	}	public static String concatThis(int a, double b, String str) {		double num = b + a;		return (str + num);	}}
